@@ -1,0 +1,15 @@
+{
+  "name": "api-proxy",
+  "version": "1.0.0",
+  "description": "Signature generator for APIs. Encrypt based in SHA256.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "lsegui",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^4.16.4"
+  }
+}
